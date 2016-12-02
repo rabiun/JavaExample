@@ -25,11 +25,12 @@ public class MapExample {
 		} 
 		
 		System.out.println();
-		//short way
+		//short way right
 		Set<Map.Entry<String, String>> entries=phoneBook.entrySet();
 		for(Map.Entry<String, String> eachEntry:entries){
 			System.out.println(eachEntry.getKey()+" : "+eachEntry.getValue());
 		}
+		
 		
 	}
 
